@@ -242,8 +242,7 @@ const Pricing = () => {
             </div>
             <hr></hr>
           </div>
-
-          <ul>
+          <ul> 
             <li>
               <p>unlimited access to the gym</p>
             </li>
@@ -260,6 +259,8 @@ const Pricing = () => {
               <p>5 classes per week</p>
             </li>
           </ul>
+
+
           <div className="join">
             <h3>Join Now</h3>
           </div>

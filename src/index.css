@@ -14,7 +14,6 @@
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   user-select: none;
-  /* overflow-x: hidden; */
 }
 html {
   font-size: 62.5%;
@@ -427,13 +426,13 @@ hr {
   background-color: var(--blue);
   color: var(--white);
 }
-.copy {
+.copy{
   align-items: center;
   text-align: center;
   margin-top: 30px;
 }
 @media screen and (max-width: 590px) {
-  .gymsite h3 {
+    .gymsite h3{
     font-size: 13px;
   }
   .gymsite h4 {
@@ -453,17 +452,18 @@ hr {
   .menu {
     display: block;
   }
-  .small {
+  .small{
     position: absolute;
     top: 15%;
     right: 5px;
     height: auto;
-    width: 50%;
+    width: 40%;
     align-items: center;
-    background-color: var(--blue);
+    background-color:var(--blue);
     padding: 20px;
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(146, 146, 146, 0.34);
+        text-align: center;
+        box-shadow: 5px 5px 5px rgba(146, 146, 146, 0.34);
+
   }
   .link a {
     display: inline-block;
@@ -471,18 +471,20 @@ hr {
     padding: 5px;
     color: var(--white);
   }
-  .link a:hover {
+  .link a:hover{
     color: var(--blad);
-    border-bottom: 2px solid crimson;
-    border-bottom-right-radius: 70%;
+  border-bottom: 2px solid crimson;
+  border-bottom-right-radius: 70%; 
   }
-  .link bdo {
+  .link bdo{
     display: inline-block;
     margin-block: 10px;
     padding: 5px;
     color: var(--white);
   }
-  .link bdo:hover {
+  .link bdo:hover{
     color: var(--blad);
+  border-bottom: 2px solid crimson;
+  border-bottom-right-radius: 70%; 
   }
 }
